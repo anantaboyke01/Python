@@ -31,7 +31,7 @@ def heapSort(arr):
         heapify(arr, i, 0)
 
 
-arr = [1, 12, 9, 5, 6, 10]
+arr = [1.55, 12, 9, 0.5, 6, 10]
 heapSort(arr)
 n = len(arr)
 print("Sorted array is")
